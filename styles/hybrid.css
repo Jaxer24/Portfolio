@@ -281,6 +281,12 @@ input:focus {
     height: auto;
 }
 
+#calc_img {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+}
+
 .image-link {
   position: relative;
   display: inline-block;
