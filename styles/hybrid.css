@@ -130,7 +130,7 @@ h2, h3, h4 {
   visibility: hidden;
   opacity: 0;
   transition: opacity 0.2s ease;
-  transition-delay: 2s; /* ⬅️ delay before showing */
+  transition-delay: 1s; /* ⬅️ delay before showing */
 }
 /* reveal tooltip on hover */
 .tooltip #t1:hover #tt1{
