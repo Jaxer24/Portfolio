@@ -269,6 +269,11 @@ input:focus {
     width: 200px;
 }
 
+#app_img {
+    height:auto;
+    width: 40px;
+}
+
 /* Keyframe Animations */
 @keyframes hop {
     0% {translate: 0 0;}
