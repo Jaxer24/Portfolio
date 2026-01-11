@@ -126,7 +126,12 @@ h2, h3, h4 {
     position: absolute;
     z-index: 1;
 }
-
+.tooltip .tooltiptext {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  transition-delay: 2s; /* ⬅️ delay before showing */
+}
 /* reveal tooltip on hover */
 .tooltip #t1:hover #tt1{
     display: block;
