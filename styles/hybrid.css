@@ -57,13 +57,7 @@ header {
     min-width: 50px;
 }
 
-/*set calculator preview image size and position*/
-#calc_img {
-    float: right;
-    max-width: 15vw;
-    min-width: 50px;
-    border-radius: 10px;
-}
+
 
 /* Set h1 font size and color */
 h1 {
@@ -282,7 +276,7 @@ input:focus {
 }
 
 #calc_img {
-    max-width: 300px;
+    max-width: 200px;
     width: 100%;
     height: auto;
 }
