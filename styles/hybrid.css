@@ -270,8 +270,9 @@ input:focus {
 }
 
 #app_img {
-    height:auto;
-    width: 40px;
+    max-width: 40px;
+    width: 100%;
+    height: auto;
 }
 
 /* Keyframe Animations */
