@@ -133,7 +133,10 @@ h2, h3, h4 {
   transition: opacity 0.2s ease;
   transition-delay: 1s; /* ⬅️ delay before showing */
 }
-
+.nav-links #t1:hover #tt1{
+  visibility: visible;
+    opacity: 1;
+}
 .nav-links #t2:hover #tt2{
   visibility: visible;
     opacity: 1;
