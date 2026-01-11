@@ -275,6 +275,39 @@ input:focus {
     height: auto;
 }
 
+.image-link {
+  position: relative;
+  display: inline-block;
+}
+
+.image-link img {
+  width: 200px; /* or whatever */
+  cursor: pointer;
+}
+
+/* Tooltip styling */
+.image-link .tooltip {
+  position: absolute;
+  bottom: 110%; /* above image */
+  left: 50%;
+  transform: translateX(-50%);
+  background: #111;
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  white-space: nowrap;
+
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+}
+
+/* Show on hover */
+.image-link:hover .tooltip {
+  opacity: 1;
+}
+
 /* Keyframe Animations */
 @keyframes hop {
     0% {translate: 0 0;}
