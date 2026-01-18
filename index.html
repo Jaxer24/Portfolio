@@ -8,7 +8,7 @@
   <meta name="keywords" content="portfolio, web development, student">
   <title>Jacob Arciniega-Bueno - CS Student Portfolio</title>
   
-  <link rel="stylesheet" href="styles/hybrid.css" id="css-theme">
+  <link rel="stylesheet" href="styles/final.css" id="css-theme">
   <link rel="icon" type="image/x-icon" href="images/digit.ico"> <!-- Personalized Favicon-->
   
     <!-- decided not to use the css switcher as I felt it might be confusing to users -->
@@ -66,8 +66,7 @@
    <img id="profile_image" src="images/selfie.jpg" alt="Jacob's profile picture" >
    <h1>Jacob Arciniega-Bueno</h1>
    <div id="subheading" style="display: flex; align-items: center;">
-    <p style="display:inline">Computer Science Undergrad studying at SFSU</p> &nbsp;&nbsp;
-    <img id="school_logo"  src="images/SFSU-logo.png" alt="SFSU school logo"> &nbsp;&nbsp;
+    <p style="display:inline">Computer Science, Blockchain, & Technology enthusiast</p> &nbsp;&nbsp;
    </div>
     </header>
   
@@ -75,10 +74,10 @@
   <nav> 
    <ul class="nav-links">
     <li id="t1" class="tooltip"> <span id="tt1" class="tooltiptext" >Hey! Don't hover, click me! </span><a href="#about-me">About Me</a></li>
+    <li id="t5" class="tooltip"> <span id="tt5" class="tooltiptext" >Hey! Don't hover, click me! </span><a href="#skills">Skills</a></li>
     <li id="t2" class="tooltip"> <span id="tt2" class="tooltiptext" >Hey! Don't hover, click me! </span><a href="#education">Education</a></li>
     <li id="t3" class="tooltip"> <span id="tt3" class="tooltiptext" >Hey! Don't hover, click me! </span><a href="#experience">Experience</a></li>
     <li id="t4" class="tooltip"> <span id="tt4" class="tooltiptext" >Hey! Don't hover, click me! </span><a href="#projects">Projects</a></li>
-    <li id="t5" class="tooltip"> <span id="tt5" class="tooltiptext" >Hey! Don't hover, click me! </span><a href="#skills">Skills</a></li>
     <li id="t6" class="tooltip"> <span id="tt6" class="tooltiptext" >Hey! Don't hover, click me! </span><a href="#contact-me">Contact Me</a></li>
    </ul>  </nav>
   
@@ -88,25 +87,28 @@
    <section id="about-me"> 
     <h2>About Me</h2>
     <p>
-     I am a first generation undergrad studying Computer Science at San Francisco State University. I held leadership
-     roles in my high-school and community college coding clubs, where I collaborated on projects and mentored novice
-     members in computer science fundementals. For the focus of my career, I am extremely passionate about blockchain technology as it offers a
-     tamper proof data storage solution for the first time in human history. Excitingly this solution can be applied to
-     various fields and industries to improve inclusivness, speed, relyability, and security.
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; I am a first generation undergrad studying Computer Science at San Francisco State University. 
     </p>
    </section>
    
    <!-- List of coding languages I know to some degree -->
    <section id="skills">
-    <h2>Skills</h2>
+    <h2>Technical Skills</h2>
     <ul id="skills_list">
      <li>HTML5</li>
      <li>CSS3</li>
      <li>Javascript</li>
-     <li>Python</li>
+     <li>TypeScript</li>
+     <li>SQL</li>
+     <li>MongoDB</li>
      <li>Java</li>
-     <li>Kotlin</li>
-     <li>Assembly</li>
+     <li>Spring Boot</li>
+     <li>React</li>
+     <li>Node.js</li>
+     <li>RESTful APIs</li>
+     <li>WebSockets</li>
+     <li>Git</li>
+     <li>Azure</li>
     </ul>
    </section>
    
@@ -116,15 +118,17 @@
     <ul style="list-style: none"> <!-- List of institutions (only 1 listed) -->
      <li>
       <h4>San Francisco State University</h4>
-      <p>Bachelor of Science in Computer Science (By May 2026)</p>
+      <p> B.S. in Computer Science San Francisco State University
+          Expected: December 2026</p>
+    <img id="school_logo"  src="images/SFSU-logo.png" alt="SFSU school logo"> &nbsp;&nbsp;
      </li>
     </ul>
     
-    <table> <!-- Table listing some of my courses -->
+    <!-- <table> - Table listing some of my courses -
      <tr>
       <th>Course</th>
       <th>Institution</th>
-      <th>Year</th>
+      <th>Year</th>         
      </tr>
      <tr>
       <td>Computer Science Ethics</td>
@@ -141,7 +145,7 @@
       <td>SFSU</td>
       <td>2025</td>
      </tr>
-    </table>
+    </table> -->
    </section>
    
    <section id="experience"> <!-- list of general work history, as well as computer science related experience -->
@@ -152,14 +156,10 @@
       <h4>Coding Experience</h4>
       <ol>
        <li>
-        Coding Clubs<br>
-        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; By participating in coding clubs I learned how to effectively communicate and
-        collaborate with others.
-       </li>
-       <li>
-        School Projects<br>
-        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; This expereince taught me how to work on collabroative projects and how to
-        meet pre-requisite obligations in my code.
+        Code Busters<br>
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; In this programming outreach club I built 
+        interactive browser-based games using JavaScript, HTML, and CSS to teach
+        foundational computer science concepts to non-technical audiences through live demos.
        </li>
       </ol>
      </li>
@@ -167,24 +167,15 @@
       <h4>Work Experience</h4>
       <ol>
        <li>
-        McDonalds - Server<br>
-        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; In this role I was in charge of cleaning the dining area, taking orders on
-        the register, and training new hires.
-       </li>
-       <li>
-        Chipotle - Food Prep<br>
-        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; In this role I was in charge of staging and preping menu items for the day as
-        well as cleaning, serving, and charging customers using the register.
-       </li>
-       <li>
-        America's Tire - Service Coordinator<br>
-        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; In this role I was in charge of working on customer vehicles as well
-        organizing the work done by my team of tire technitions.
+        America's Tire - Service Coordinator (June 2019 – February 2024)<br>
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Led teams at a multi-million-revenue location, utilizing management and customer feedback
+        to drive improvements in efficiency, quality control, and workplace safety.
+        <br><br>
        </li>
        <li>
         FedEx - Delivery Driver<br>
-        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; In this role I was in charge of delivering packages to customers in the Los
-        Gatos Mountains. Here I learned how to effectively work independantly and manage my time to achieve my goals.
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; In this role I was responsible for delivering packages to customers. 
+        Here I learned independency and time management skills to achieve my goals.
        </li>
       </ol>
      </li>
@@ -196,62 +187,97 @@
    <section id="projects">
     <h2>Projects</h2>
     <div class="card_containter">
-     <article class="card">
-      <h3>CryptoSlots</h3>
+      <article class="card">
+      <h3>Pancake League</h3>
       <p>
-       A proof of concept game that gives players the name and logo of 3 random crypo tokens from CoinGecko's public
-       API. Players can then pick which of the three has the highest price, guessing right earns a point while guessing
-       wrong ends the game. "Now you can simulate making important financial decisions on crypto tokens only using their
-       name and logo. Just like a real crypto trader!"
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; In this project I developed a real-time multiplayer game server in Java and Spring Boot 
+        with an authoritative server-side game state, synchronizing updates across multiple concurrent players.
+        For the user interface I built a web-based front-end in HTML, CSS, and JavaScript using WebSockets to support
+        real-time client–server communication.
+        Additionally I integrated the Phaser.js game framework to manage in-game assets, rendering, and
+        physics, and implemented automated CI/CD pipelines for continuous build and testing.
       </p>
-        <a href="https://cryptoslots.lol" class="hover-image-link">Play the Crypto Price Game</a> 
+        <!-- <a href="https://pancakeleague.win" class="hover-image-link">Play the Crypto Price Game</a> -->
+      <a
+        href="https://pancakeleague.win"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="image-link"
+      >
+        <img class="project-img" id="pancake_league_img"  src="images/PancakeLeague.png" alt="Pancake League Game Preview" style="outline-style: solid; margin: 10px; ">
+      <span class="tooltip">Visit Pancake League</span>
+      </a>
+      </article>
+
+     <article class="card">
+      <h3>Crypto Slots</h3>
+      <p>
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Here I developed an interactive React web application using JavaScript / TypeScript, HTML/CSS,
+        and Node.js, with npm for package management.
+        I also designed and implemented a RESTful back-end with a SQL database to store user
+        authentication, game data, and score tracking.
+        Additionally I integrated CoinGecko's APIs to retrieve real-time cryptocurrency data for consistent real-time
+        data updates. <br> Now you can simulate making important financial decisions on Crypto tokens only using their
+       name and logo. Just like a real Crypto trader!
+      </p>
+        <!-- <a href="https://cryptoslots.lol" class="hover-image-link">Play the Crypto Price Game</a> -->
       <a
         href="https://cryptoslots.lol"
         target="_blank"
         rel="noopener noreferrer"
         class="image-link"
       >
-        <img id="Crypto_img"  src="images/CryptoSlots.png" alt="Crypto Game Preview" style="outline-style: solid; margin: 10px;">
+        <img class="project-img" id="Crypto_img"  src="images/CryptoSlots.png" alt="Crypto Game Preview" style="outline-style: solid; margin: 10px;">
       <span class="tooltip">Visit Crypto Slots</span>
       </a>
       </article>
+      
      <article class="card">
-      <h3>Media Review App</h3>
+      <h3>Media Review Central</h3>
       <p>
-        This web aplication allows users to share reviews of their favorite movies with others.
-       Some features of the app include:
-       -Star Ratings with text reviews, 
-       -like/dislike button on reviews, 
-       -Tags on movie genre, 
-       -Site top 10 Lists, 
-       -Search / Explore pages, 
-       -Bookmark/Favorites, 
+       &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; In this project I collaborated in a team of four in an Agile environment 
+       with weekly sprint planning and retrospectives, plus daily stand-ups to maintain alignment and consistent progress.
+       Together we implemented responsive user interfaces with HTML, CSS, and JavaScript, enabling users to
+       submit, edit, and view movie reviews.
+       I personally designed a RESTful API using Node.js and Express with MongoDB to support user
+       authentication, store movie and review data, and facilitate CRUD operations.
+       <br> <br>
+       This web aplication allows users to share reviews of their favorite movies with others.<br>
+       Some features of the app include:<br>
+       -Star Ratings with text reviews, <br>
+       -like/dislike button on reviews, <br>
+       -Tags on movie genre, <br>
+       -Site top 10 Lists, <br>
+       -Search / Explore pages, <br>
+       -Bookmark/Favorites, <br>
        -Media image cover uploads, 
       </p> 
-      <a href="https://moviecentral.lol" class="hover-image-link">Media Review App</a> 
+      <!-- <a href="https://moviecentral.lol" class="hover-image-link">Media Review App</a> -->
       <a
         href="https://moviecentral.lol"
         target="_blank"
         rel="noopener noreferrer"
         class="image-link"
       >
-      <img id="app_img"  src="images/App.png" alt="Website app preview"  style="outline-style: solid; margin: 10px;">
+      <img class="project-img" id="app_img"  src="images/App.png" alt="Website app preview"  style="outline-style: solid; margin: 10px;">
        <span class="tooltip">Visit Movie Central</span>
       </a>  
     </article>
       <article class="card">
       <h3>Javascript Calculator App</h3>
       <p>
-       This project was made using HTML, CSS, and vanilla Javascript. This calculator has +, -, +, /, %, and (+/-) features and is designed to dynamically adjust its size depending on device screen size. The calculator can handle many edge cases and some complex calculations.
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; This project was made using HTML, CSS, and vanilla Javascript. 
+        This calculator has +, -, +, /, %, and (+/-) features and is designed to dynamically adjust its 
+        size depending on device screen size. The calculator can handle many edge cases and some complex calculations.
       </p>
-        <a href="calculator.html" class="hover-image-link">Use Calculator</a> 
+        <!-- <a href="calculator.html" class="hover-image-link">Use Calculator</a> -->
         <a
-        href="https://moviecentral.lol"
+        href="calculator.html"
         target="_blank"
         rel="noopener noreferrer"
         class="image-link"
       >
-      <img id="calc_img"  src="images/calc.png" alt="Calculator app preview">
+      <img class="project-img" id="calc_img"  src="images/calc.png" alt="Calculator app preview">
        <span class="tooltip">Visit Calculator</span>
       </a>    
         
@@ -268,7 +294,9 @@
      <article class="card">
       <h3>Portfolio Website</h3>
       <p>
-       This responsive portfolio website showcasing my projects, skills, and expereince. (Woah kind of breaking the 4th
+       Here I built and deployed a responsive portfolio website using HTML, CSS, and JavaScript, with
+       Git-based automated deployment on Azure to support continuous deployment (CD).<br>
+       This portfolio showcases my projects, skills, and experience. (Woah kind of breaking the 4th
        wall here, how meta!).
       </p>
      </article>
@@ -338,11 +366,10 @@
     </form>
     
     <!-- hyperlinks to my personal email, github, and linkedin --> 
-    <p> <a href="mailto:Jacobarciniega24@gmail.com">Email</a>
      <a href="https://github.com/Jaxer24">GitHub</a>
-     <a href="https://www.linkedin.com/in/jacob-arciniega-a20681330/">LinkedIn</a>
+     <a href="https://www.linkedin.com/in/jacobarciniegabueno/">LinkedIn</a>
     </p>
-    <p>Copyright &copy; Arciniega-Bueno 2025 . . Don't steal pls &#9829;</p>
+    <p>&copy; Arciniega-Bueno</p>
    </section>
   </footer>
   

@@ -12,6 +12,7 @@
     --font-body: 'Arial', sans-serif;
 }
 
+
 /* Body colors and font */
 body {
     background-color: var(--accent-two-color);
@@ -156,17 +157,27 @@ h2, h3, h4 {
 
 /* Sections Style*/
 section {
-    padding: 20px;
+    padding: 10px;
     margin: 19px;
     border:3px solid var(--secondary-color);
     border-radius: 15px;
     background: var(--accent-three-color);
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
     justify-content: center;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 section:hover { /* From AI_1 */
     transform: scale(1.05);
+}
+
+#about-me {
+    padding: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 /* Table Style */
@@ -269,6 +280,12 @@ input:focus {
     height: auto;
 }
 
+#pancake_league_img {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+}
+
 #app_img {
     max-width: 400px;
     width: 100%;
@@ -289,6 +306,10 @@ input:focus {
 .image-link img {
   width: 200px; /* or whatever */
   cursor: pointer;
+}
+
+.project-img:hover { /* From AI_1 */
+    transform: scale(1.05);
 }
 
 /* Tooltip styling */
